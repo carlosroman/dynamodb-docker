@@ -11,6 +11,4 @@ WORKDIR /usr/local/lib/dynamodb
 
 EXPOSE 8000
 
-VOLUME /usr/local/lib/dynamodb
-
 ENTRYPOINT ["/usr/local/lib/dynamodb/entrypoint.sh"]
